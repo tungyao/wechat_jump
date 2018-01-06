@@ -19,7 +19,7 @@ class adb:
         print('================================')
         pipe.kill()
     def upload(self):
-        cmd = 'adb pull /sdcard/screen.jpg E:/hub/yum/data/img1.jpg'
+        cmd = 'adb pull /sdcard/screen.jpg E:/hub/yum/data/img.jpg'
         pipe = subprocess.Popen(cmd, shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
         time.sleep(1)
         # pipe.kill()

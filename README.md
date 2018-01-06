@@ -1,5 +1,8 @@
 # wechat_jump--Open source
 ## 更新 Update
+>Version 0.3
+* 增加
+  * 基于颜色查找的全自动跳
 >Version 0.2
 * 删除
   * 测量长度动作
